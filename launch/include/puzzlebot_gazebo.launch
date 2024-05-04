@@ -9,7 +9,7 @@
   <arg name="debug" default="false"/>
   
   <!--load robot description -->
-   <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find puzzlebot_gazebo)/urdf/puzzlebot_lidar.xacro'" />
+   <param name="robot_description" command="$(find xacro)/xacro --inorder '/home/yair/catkin_ws/src/arrow_autonomusnavigation_puzzlebot/puzzlebot_gazebo/urdf/puzzlebot_lidar.xacro'" />
     
     <arg name="x" default="0.8"/> <!--valores donde comienza nuestra pista-->
     <arg name="y" default="-0.5"/>
