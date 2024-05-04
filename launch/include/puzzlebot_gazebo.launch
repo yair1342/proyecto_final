@@ -11,8 +11,8 @@
   <!--load robot description -->
    <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find puzzlebot_gazebo)/urdf/puzzlebot_lidar.xacro'" />
     
-    <arg name="x" default="0.8"/>
-    <arg name="y" default="-0.9"/>
+    <arg name="x" default="0.8"/> <!--valores donde comienza nuestra pista-->
+    <arg name="y" default="-0.5"/>
     <arg name="z" default="0.0"/>
     
   <node name="puzzlebot_spawn" pkg="gazebo_ros" type="spawn_model"  output="screen"
