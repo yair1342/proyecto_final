@@ -13,7 +13,7 @@
     <!-- Launching gazebo maze simulation -->
     <include file="$(find arrow_autonomusnavigation_puzzlebot)/launch/include/gazebo_launch.launch"/>
 
-    <include file="$(find arrow_autonomusnavigation_puzzlebot)/launch/include/puzzlebot_gazebo.launch"/>
+    <include file="$(find arrow_autonomusnavigation_puzzlebot)/launch/include/robot_in_gazebo.launch"/>
 
     <!-- Launch robot control complete TF tree -->
     <!--<include file="$(find arrow_autonomusnavigation_puzzlebot)/launch/include/robot/control.launch"/>-->
