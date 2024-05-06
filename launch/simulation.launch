@@ -4,7 +4,7 @@
     <!-- To use the same name as that of the 3D LiDAR -->
     <!-- Remap must be used here since it is position-dependent (scope affected), 
     this means that everything that is declared beneath it will consider 
-    this new name, but everything above it won't 
+    this new name, but everything above it won't # 
     Reference: http://wiki.ros.org/roslaunch/XML/remap
     Point 4 - Important Notes-->
 
@@ -24,7 +24,7 @@
     <include file="$(find arrow_autonomusnavigation_puzzlebot)/launch/include/rviz/rviz_launch_2d.launch"/>
 
     <!-- Launching Rviz with navigation visualization -->
-    <!--<include file="$(find arrow_autonomusnavigation_puzzlebot)/launch/include/rviz/rviz_launch_nav_2d.launch"/-->
+    <!--<include file="$(find arrow_autonomusnavigation_puzzlebot)/launch/include/rviz/rviz_launch_nav_2d.launch"/>-->
 
     <!-- Launching ROS Navigation Stack nodes -->
     <!-- Launch gmapping node and move base to generate map of environment -->
